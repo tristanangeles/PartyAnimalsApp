@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="/generator/style.css">
+</head>
+
+
+<body>
+	<h1>Your Political Party Animals</h1>
+</body>
+	{% for minion in minions %}
+
+		<div class="minion">
+			<h3>{{minion.name}}</h3>
+			<h4>{{minion.species}}</h4>
+		</div>
+
+	{% endfor %}
+
+
+</html>
